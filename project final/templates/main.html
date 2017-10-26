@@ -1,0 +1,28 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Брянский поисковик</title>
+</head>
+<body>
+<h1>Брянский поисковик</h1>
+<form method="get">
+<button>пересобрать</button> корпус объемом <label></label><input type="text" name="vol"></form>
+{{rebuilt}}
+	<br>
+<br>
+	<form method="get">
+    <button>поиск</button><label>Ваш запрос: </label> <input type="text" name="query"> 
+<br>
+{% for l in links%}
+{{l}}
+<br>
+{% endfor %}
+<br>
+<form method="get">
+<input type="checkbox" name="del"><button>удалить корпус</button>
+<br>
+{{deleted}}
+</form>
+</body>
+</html>

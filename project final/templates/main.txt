@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Собаки или коты?</title>
+</head>
+<body>
+<h1>Собаки или коты?</h1>
+	<form method="get">
+    <label>Вас зовут: <input type="text" name="name"> </label><br>
+	<label>собаки<input type="radio" name="dog"> </label><br>
+	<label>коты<input type="radio" name="cat"> </label><br>
+	<input type="submit" value="Отправить">
+	</form>
+
+</body>
+</html>
